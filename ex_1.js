@@ -1,17 +1,17 @@
-function sayHi() {
-  console.log("Hi There !!")
+// Higher Order Functions / Callbacks
+var sum = 0;
+var x;
+var y
+
+console.log(sum)
+
+function multiply(x, y) {
+  console.log('in function x and y ->', x, y)
+  return x * y
 }
-
-function sayBye() {
-  console.log("By There")
-}
-
-
-function sayGottaGo() {
-  console.log("Got To Go now")
-}
+console.log('x and y ->', x, y)
+console.log(multiply(2, 3)
+)
 
 
-sayHi();
-sayBye();
-sayGottaGo();
+// Callbacks are used to delay execution
